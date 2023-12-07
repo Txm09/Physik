@@ -1,0 +1,65 @@
+.title_menu{
+    color: lightgreen;
+    text-align: center;
+    font-family: 'Dhurjati', sans-serif;
+    font-size: 400%;
+    margin-top: 35px;
+    margin-left: 55px;
+}
+
+.title{
+    font-family: 'Dhurjati', sans-serif;
+    font-size: 240%;
+}
+
+.logo{
+    width: 70px;
+    height: auto;
+    margin-top: -35px;
+}
+
+.menu_link_margin{
+    margin-left: 45px;
+    margin-top: 55px;
+}
+
+.trademark{
+    font-size: 85%;
+    margin-top: 347px;
+    margin-left: 45px;
+}
+
+.legalacy{
+    color: rgb(255, 89, 89);
+    margin-left: 350px;
+    position: absolute;
+    top: 30px;
+    right: 45px;
+    font-size: smaller;
+}
+
+footer{
+    background-color: #262626;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 10%;
+}
+
+h4{
+    font-family: 'Dhurjati', sans-serif;
+    color: white;
+    margin-left: 30px;
+    margin-top: 17px;
+    font-size: 250%;
+}
+
+.mdl-layout__header{
+    color: lightgreen;
+}
+
+.mdl-navigation__link:hover{
+    text-decoration: underline;
+}
+
+
