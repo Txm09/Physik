@@ -12,10 +12,20 @@
     font-size: 240%;
 }
 
+.mdl-layout__header {
+    background-color: darkgreen;
+}
+
 .logo{
     width: 70px;
     height: auto;
     margin-top: -35px;
+}
+
+hr{
+    width: 210px;
+    margin-left: 15px;
+    border-width: 3px;
 }
 
 .menu_link_margin{
@@ -25,7 +35,8 @@
 
 .trademark{
     font-size: 85%;
-    margin-top: 347px;
+    position: absolute;
+    bottom: 0px;
     margin-left: 45px;
 }
 
@@ -52,10 +63,6 @@ h4{
     margin-left: 30px;
     margin-top: 17px;
     font-size: 250%;
-}
-
-.mdl-layout__header{
-    color: lightgreen;
 }
 
 .mdl-navigation__link:hover{
