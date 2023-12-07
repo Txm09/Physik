@@ -12,10 +12,20 @@
     font-size: 240%;
 }
 
+.mdl-layout__header {
+    background-color: darkgreen;
+}
+
 .logo{
     width: 70px;
     height: auto;
     margin-top: -35px;
+}
+
+hr{
+    width: 210px;
+    margin-left: 15px;
+    border-width: 3px;
 }
 
 .menu_link_margin{
@@ -25,7 +35,8 @@
 
 .trademark{
     font-size: 85%;
-    margin-top: 347px;
+    position: absolute;
+    bottom: 0px;
     margin-left: 45px;
 }
 
@@ -54,12 +65,43 @@ h4{
     font-size: 250%;
 }
 
-.mdl-layout__header{
-    color: lightgreen;
-}
-
 .mdl-navigation__link:hover{
     text-decoration: underline;
+}
+
+.faq{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq_h2{
+    font-family: 'Dhurjati', sans-serif;
+}
+
+.question{
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.answer{
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.faq_main{
+    height: 600px;
+    background-image: url(/Physik/FAQ/img/FAQ_Background-transformed.png);
+    background-size: cover;
+    color: #fff;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 
