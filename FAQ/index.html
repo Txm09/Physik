@@ -61,12 +61,94 @@
       </main>
   </div>
   </form>
+  <div class="demo-list-action mdl-list">
+    <div class="mdl-list__item">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-avatar">looks_one</i>
+        <span>Wie gewährleistet Ihr Energieversorgungskonzept die Speicherung überschüssiger elektrischer
+          Energie?</span>
+      </span>
+    </div>
+    <div class="mdl-list__item">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-avatar">looks_two</i>
+        <span>Können Sie die Auswahl Ihres Primärenergieträgers (Energiequelle) begründen?</span>
+      </span>
+    </div>
+    <div class="mdl-list__item">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-avatar">looks_3</i>
+        <span>Wie gelangt Ihre elektrische Energie zu mir nach Hause?</span>
+      </span>
+      <span class="mdl-list__item-secondary-content">
+      </span>
+    </div>
+    <div class="mdl-list__item">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-avatar">looks_4</i>
+        <span>Können Sie kurz die Funktionsweise Ihres verwendeten Kraftwerktyps erklären?</span>
+      </span>
+      <span class="mdl-list__item-secondary-content">
+      </span>
+    </div>
+    <div class="mdl-list__item">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-avatar">looks_5</i>
+        <span>Ist Ihr Energieversorgungskonzept auch für Energienutzer in Hessen verfügbar?</span>
+      </span>
+      <span class="mdl-list__item-secondary-content">
+      </span>
+    </div>
+  </div>
 
-  <!-- Simple list -->
-
-  <ul class="demo-list-item mdl-list" id="questionlist">
+  <ul class="answers">
+    <li class="mdl-list__item">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">looks_one</i>
+        Mit einem Pumpspeicherkraftwerk.
+      </span>
+    </li>
+    <li class="mdl-list__item">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">looks_two</i>
+        Ja, grüner Strom ohne Wind und Sonne.
+      </span>
+    </li>
+    <li class="mdl-list__item">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">looks_3</i>
+        Mit unterirdischen Kabeln.
+      </span>
+    </li>
+    <li class="mdl-list__item">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">looks_4</i>
+        Wasser -> Turbinen -> Generator -> Strom
+      </span>
+    </li>
+    <li class="mdl-list__item">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">looks_5</i>
+        Ja, ist es.
+      </span>
+    </li>
   </ul>
 
+  <ul class="demo-list-item mdl-list" id="questionlist"></ul>
+
+  <!-- List items with avatar and action -->
+  <style>
+    .demo-list-action {
+      columns: 5;
+      column-gap: 60px;
+      width: 2000px;
+    }
+
+    .mdl-list__item {
+      columns: 5;
+      column-gap: 60px;
+    }
+  </style>
 
   <footer>
     <div>
