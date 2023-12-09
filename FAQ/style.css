@@ -94,3 +94,25 @@ h4 {
     width: 100%;
     break-inside: avoid-column;
 }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #262626;
+  }
+
+  .answers {
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .answers li {
+    width: calc(25% - 10px); 
+    margin-right: 10px;
+    padding: 10px;
+  }
