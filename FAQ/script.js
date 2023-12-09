@@ -13,3 +13,16 @@ function addQuestion() {
   `;
   questionList.appendChild(newListItem);
 }
+
+document.getElementById('questionForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+  var questionInput = document.getElementById('questionfield').value;
+  var questionList = document.getElementById('questionlist');
+  
+  var newListItem = document.createElement('li');
+  newListItem.textContent = questionInput;
+  questionList.appendChild(newListItem);
+  
+  document.getElementById('questionfield').value = '';
+});
